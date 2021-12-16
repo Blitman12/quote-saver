@@ -1,0 +1,18 @@
+html {
+    background: url('/images/hero.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.centered-parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-link {
+    text-decoration: none;
+    color:azure
+}

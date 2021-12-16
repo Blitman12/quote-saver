@@ -1,0 +1,12 @@
+<div>
+    <h1>
+        You logged in
+    </h1>
+</div>
+<div>
+    {{#if books.length}}
+    {{#each books as |book|}}
+    <h1>{{book.title}}</h1>
+    {{/each}}
+    {{/if}}
+</div>
